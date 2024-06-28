@@ -1,0 +1,152 @@
+.mobile-nav-fade {
+  display: none;
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(173, 173, 173, 0.5);
+
+  &--open {
+    display: block;
+  }
+}
+
+.mobile-nav {
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  top: 0;
+  padding: 24px;
+  background-color: #fefefe;
+  width: 343px;
+  height: 100%;
+
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &--open {
+    display: flex;
+  }
+}
+.mobile-nav__top {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.mobile-nav__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_logo--small {
+  line-height: 1.5;
+  span {
+    color: #6c7275;
+  }
+}
+.mobile-search-label {
+  border: 1px solid #6c7275;
+  border-radius: 6px;
+  padding: 12px 16px;
+  width: 295px;
+
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.mobile-nav__search-input {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.57;
+  color: #6c7275;
+}
+.nav_list-mobile {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav_item-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  padding: 16px 0;
+
+  border-bottom: 1px solid #e8ecef;
+}
+
+.nav_link-mobile {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #141718;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+// ----------botton-----------
+.mobile-nav__botton {
+  display: flex;
+  flex-direction: column;
+  gap: 19.3px;
+}
+
+.mobile-nav__links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.mobile-nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 1px solid#E8ECEF;
+
+  font-size: 18px;
+  line-height: 1.77;
+  letter-spacing: -0.4px;
+  color: #6c7275;
+}
+
+.mobile-nav-link-bag {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.mobile-nav-caklc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #000000;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+
+  font-size: 12px;
+  line-height: 0.83;
+  color: #ffffff;
+}
+.btn-mobile {
+  padding: 10px 0;
+  width: 100%;
+  margin-top: 19px;
+}
+
+.mobile-nav__social {
+  padding-top: 21.3px;
+  display: flex;
+  gap: 26px;
+  align-items: center;
+}

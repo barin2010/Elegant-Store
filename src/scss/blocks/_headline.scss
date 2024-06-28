@@ -1,0 +1,11 @@
+.headline-4 {
+  font-size: var(--accent);
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.1;
+  letter-spacing: -0.4px;
+
+  @include mobile {
+    font-size: 36px;
+  }
+}

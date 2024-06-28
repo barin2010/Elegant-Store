@@ -1,0 +1,47 @@
+.value {
+  padding: 54px 32px 48px;
+  background-color: #f3f5f7;
+  display: flex;
+  flex-basis: 262px;
+  flex-direction: column;
+
+  @include mobile {
+    
+    flex-basis: 150px;
+    padding: 32px 16px;
+    max-width:150px;
+   
+    
+  }
+}
+.value_img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 22px;
+}
+.value_title {
+  font-family: var(--font-accent);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #141718;
+  margin-bottom: 8px;
+
+  @include mobile{
+    font-size:14px;
+    font-weight: 700;
+    margin-bottom:4px;
+  }
+}
+.value_desc {
+  font-family: var(--font-accent);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #6c7275;
+
+  @include mobile{
+    line-height:1.71;
+    width:120px;
+  }
+}
